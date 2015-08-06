@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-docker pull epahomov/docker-spark
-docker run -d -t -P --name spark_master epahomov/docker-spark /start-master.sh "$@"
+docker pull clakech/docker-spark
+docker run -d -t -P --name spark_master clakech/docker-spark /start-master.sh "$@"
